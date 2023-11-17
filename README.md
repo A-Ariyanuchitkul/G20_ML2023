@@ -21,6 +21,6 @@ class ReadObject:
     'mapping'               dictionary, int64 -> str
 
   [sample_data(index_list, mode)]:
-    returns (N, 425, 425) ndarray, representing N images.
+    returns (N, 425, 425) or (N, 425, 425, 3) ndarray, representing N images.
     The index_list is a list representing the indices of the pictures in the batch. To seperate training batch and validation batch, make two complementary lists and seperately pass them to this function
   
