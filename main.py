@@ -3,8 +3,8 @@ from tkinter import filedialog
 import nibabel as nib
 import numpy as np
 from PIL import Image, ImageTk
-
-#from project_classification import *
+import import_ipynb;
+from project_classification import *
 
 # Import your machine learning model
 # Replace the following line with your actual model import
